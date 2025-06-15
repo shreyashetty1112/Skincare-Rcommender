@@ -73,8 +73,6 @@ This approach ensures that you receive personalized results even if you've never
 
 
 # App  
-This project has been deployed using Streamlit. Please visit the link here Network URL: http://192.168.207.8:8502
-
 App in overall  
 <br>
 <img width="881" alt="image" src="home1.jpg">
