@@ -26,7 +26,7 @@ This website uses datasets scraped independently from various skincare product w
 
 # Data Overview  
 
-st.markdown("""
+<br>
 ### Why Use GlowCare?
 
 GlowCare is a smart recommendation system that helps you find skin care products tailored to your unique skin type and concerns. It's built to simplify the overwhelming choices in the skincare world.
@@ -35,9 +35,9 @@ GlowCare is a smart recommendation system that helps you find skin care products
 - Filter by skin type, skin concerns, and desired benefits
 - Backed by a machine learning engine that understands your needs
 - Offers clear, personalized product suggestions based on your selections
-""")
 
-st.markdown("""
+
+<br>
 ### About the Data
 
 The product dataset contains 1,224 entries that were carefully scrapped and organized to ensure clarity and consistency.
@@ -47,9 +47,9 @@ The product dataset contains 1,224 entries that were carefully scrapped and orga
 - The dataset covers five major product types, with serums being the most popular
 - About 150 products offer a combination of benefits including pore care, brightening, and anti-aging
 - A significant number of products are formulated for oily skin types, reflecting market demand
-""")
+<br>>
 
-st.markdown("""
+
 ### How GlowCare Works
 
 GlowCare uses a content-based filtering approach powered by machine learning.
@@ -59,21 +59,22 @@ GlowCare uses a content-based filtering approach powered by machine learning.
 3. It calculates product similarity and recommends the most relevant options
 
 This approach ensures that you receive personalized results even if you've never used the products before.
-""")
 
-st.markdown("""
+
+
 ### Tips for Best Use
 
 - Be specific with your choices to improve recommendation accuracy
 - Try exploring different product categories and effects
 - Visit the "Skin Care 101" section to learn more about effective skincare routines
-""")
+
 
 
 
 
 # App  
-This project has been deployed using Streamlit. Please visit the link here https://skin-care-recommender-system-141.streamlit.app/.  
+This project has been deployed using Streamlit. Please visit the link here Network URL: http://192.168.207.8:8502
+
 App in overall  
 <br>
 <img width="881" alt="image" src="home1.jpg">
