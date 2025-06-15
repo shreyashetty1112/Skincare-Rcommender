@@ -26,12 +26,49 @@ This website uses datasets scraped independently from various skincare product w
 
 # Data Overview  
 
-1. In total, there are 1224 products scrapped from websites.  
-2. Because this data was scrapped and arranged by me, it looks neater and cleaner. There's no null value.  
-3. Unfortunately, there are 14 duplicate rows. Need to be removed.  
-4. Of 5 types of products, serum is more hype than others.   
-5. From many pairs of notable effects, 150 products are good for pore care, brightening, and anti-aging all in one product.  
-6. Looks like many skin care products suitable for oily skin.
+st.markdown("""
+### Why Use GlowCare?
+
+GlowCare is a smart recommendation system that helps you find skin care products tailored to your unique skin type and concerns. It's built to simplify the overwhelming choices in the skincare world.
+
+- Explore over 1,200 carefully curated products from various trusted brands
+- Filter by skin type, skin concerns, and desired benefits
+- Backed by a machine learning engine that understands your needs
+- Offers clear, personalized product suggestions based on your selections
+""")
+
+st.markdown("""
+### About the Data
+
+The product dataset contains 1,224 entries that were carefully scrapped and organized to ensure clarity and consistency.
+
+- All entries are clean with no missing values
+- 14 duplicate rows were identified and removed
+- The dataset covers five major product types, with serums being the most popular
+- About 150 products offer a combination of benefits including pore care, brightening, and anti-aging
+- A significant number of products are formulated for oily skin types, reflecting market demand
+""")
+
+st.markdown("""
+### How GlowCare Works
+
+GlowCare uses a content-based filtering approach powered by machine learning.
+
+1. You select your skin type, problems, and desired effects
+2. The system compares your input with product descriptions using TF-IDF vectorization
+3. It calculates product similarity and recommends the most relevant options
+
+This approach ensures that you receive personalized results even if you've never used the products before.
+""")
+
+st.markdown("""
+### Tips for Best Use
+
+- Be specific with your choices to improve recommendation accuracy
+- Try exploring different product categories and effects
+- Visit the "Skin Care 101" section to learn more about effective skincare routines
+""")
+
 
 
 
