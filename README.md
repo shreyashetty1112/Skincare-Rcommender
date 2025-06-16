@@ -4,25 +4,19 @@
 <img src="Glowcare.jpg" alt="eCommerce" style="width:800px;height:500px;" align="center">
 </div> 
 
-<br>
-Nowadays, skin care is becoming one of the most essential things in our lives. Skincare products have grown rapidly everywhere and tend to increase year by year. So do not be surprised if there are so many skin care products circulating in the community. However, the large number of product choices makes it difficult for people to choose the product that best suits their facial needs. Therefore, the author took the initiative to create a system that is able to recommend skin care products based on facial skin problems. In this study, the author uses the method of content-based filtering in making the recommendation system. This recommendation system is made without using rating data, so the algorithm approach used is cosine similarity and TF-IDF in finding similarity features. Then, the first output that appears will be used by the machine as historical data to then enter the content-based filtering stage. So, users will get recommendations according to the selected keywords and similar products.   
-</br>
+# SkinCare Product Recommendation System
 
-<br>
-This website uses datasets scraped independently from various skincare product websites with details:  
-<br></br>
+With skincare becoming an increasingly important part of daily life, the number of products available on the market has grown significantly. This abundance, while offering variety, often creates confusion for consumers trying to find products that truly match their individual skin concerns. To address this, we present a content-based skincare product recommendation system that helps users discover suitable products based on their specific skin needs.
 
-| Feature Name | Description | 
-| --- | --- | 
-|**product_href** | Product URL link |
-|**product_name** | Product name |
-|**product_type** |Type of product (Facial wash, Toner, Serum, Moisturizer, Sunscreen) |
-|**brand** | Product brand |
-|**notable_effects** | What it's good for |
-|**skin type** | The suitable type of skin for the product (Normal, Dry, Oily, Combination, Sensitive) |
-|**price** | Product price (in IDR Rp) |
-|**description** | Product description |
-|**picture_src** | Product image URL link |
+This web-based recommendation system is built using a **content-based filtering approach**. Unlike collaborative filtering, it does not rely on user ratings or reviews. Instead, it uses **TF-IDF (Term Frequency-Inverse Document Frequency)** and **cosine similarity** to measure the relevance between product features and the user’s selected keyword. The system identifies similar products based on descriptive attributes and recommends the closest matches.
+
+The recommendation process works in two stages. First, it identifies the most relevant product based on user input. This result is then used as historical data to generate a list of similar products using content-based filtering, ensuring that users receive suggestions tailored to their preferences.
+
+The dataset used for this system was independently scraped from multiple skincare product websites. Each product entry includes several key attributes:
+
+Each product is defined by its URL, name, type (e.g., facial wash, toner, serum, moisturizer, or sunscreen), brand, key benefits or notable effects, and recommended skin type (such as normal, dry, oily, combination, or sensitive). Additional data includes product price (in Indonesian Rupiah), a textual description of the product, and a link to the product image.
+
+This recommendation engine enables users to explore and choose skincare products with greater confidence and personalization—delivering results that align with their specific skin concerns and preferences.
 
 # Data Overview  
 
