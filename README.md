@@ -4,7 +4,7 @@
 <img src="Glowcare.jpg" alt="eCommerce" style="width:800px;height:500px;" align="center">
 </div> 
 
-# SkinCare Product Recommendation System
+# SkinCare Recommendation System
 
 With skincare becoming an increasingly important part of daily life, the number of products available on the market has grown significantly. This abundance, while offering variety, often creates confusion for consumers trying to find products that truly match their individual skin concerns. To address this, we present a content-based skincare product recommendation system that helps users discover suitable products based on their specific skin needs.
 
