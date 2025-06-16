@@ -1,4 +1,4 @@
-# Glow care a Skincare Recommender System Based on Skin Problem Using Content-Based Filtering  
+# Glow care 
 
 <div align="center">
 <img src="Glowcare.jpg" alt="eCommerce" style="width:800px;height:500px;" align="center">
